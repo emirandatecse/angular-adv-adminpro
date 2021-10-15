@@ -19,15 +19,4 @@ export class DonaComponent{
   public colors:Color[] = [
     { backgroundColor: ['#9E120E', '#FF5800', '#FFB414'] }
   ]
-
-/*
-@Input('labels') labels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-@Input('data') data: MultiDataSet = [
-  [350, 450, 100]
-];
-public doughnutChartType: ChartType = 'doughnut';
-@Input('colors') colors:Color[] = [
-  { backgroundColor: ['#9E120E', '#FF5800', '#FFB414'] }
-]
-*/
 }
